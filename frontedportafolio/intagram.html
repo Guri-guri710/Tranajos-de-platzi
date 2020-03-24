@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Instagram</title>
+  <style>
+    body{
+      margin:0;
+      font-family: Arial;
+    }
+    .post-list{
+      display: grid;
+      grid-template-columns: repeat(3,minmax(100px,293px));
+      justify-content: center;
+      grid-gap: 28px
+    }
+
+    .post{
+      cursor:pointer;
+      position:relative;
+      display: block;
+    }
+    .post-image{
+      margin:0;
+    }
+    .post-image img{
+      width:100%;
+      vertical-align: top;
+    }
+    .post-overlate{
+      background: rgba(0,0,0,.4);
+      position: absolute;
+      left:0;
+      right: 0;
+      bottom: 0;
+      top:0;
+      display: none;
+      align-items: center;   /*de fiorma vertical */
+      justify-content: center; /*de fiorma horizontal */
+      color:  white;
+      text-align: center;
+
+    }
+    .post:hover .post-overlate{
+      display: flex;
+    }
+
+    .post-like,
+    .post-coment{
+      width: 80px;
+      margin: 5px;
+      font-weight: bold;
+      text-align: center;
+      display: inline-block;
+    }
+    @media screen and (max-width: 768px){
+      grid-gap: 3px;
+    }
+  </style>
+</head>
+<body>
+   <section class="post-list">
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/mujertatuada.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/tatoo.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/vieja.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/mujertatuada.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/tatoo.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/vieja.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/mujertatuada.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/tatoo.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/vieja.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/mujertatuada.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/tatoo.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/vieja.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/mujertatuada.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/tatoo.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/vieja.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/mujertatuada.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/tatoo.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+     <a href="" class="post">
+       <figure class="post-image">
+         <img src="Imgs/vieja.jpg" alt="Imgen de mujer tatuada">
+       </figure>
+       <span class="post-overlate">
+         <p>
+           <span class="post-like">150</span>
+           <span class="post-coment">10</span>
+         </p>
+       </span>
+     </a>
+
+   </section>
+</body>
+</html>

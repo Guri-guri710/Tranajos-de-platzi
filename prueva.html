@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+
+    body{
+      font-family: Arial;
+      margin: 0;
+    }
+
+    .contenedor{
+      width: 100%;
+      height: 200px;
+      background-color:green;
+      display: grid;
+      grid-template-columns: minmax(auto, 100%);
+      justify-content: center;
+      color: white;
+    }
+    .sub-contenedor{
+      width: inherit;
+      display: grid;
+      grid-template-columns: 0px 1fr ;
+      grid-gap: 10px;
+      grid-template-areas: ". titulo "
+                          "imgii countdown "
+                          ". . ";
+    }
+    .imgii{
+      grid-area: imgii;
+    }
+    .imgii img{
+      width: 70px;
+    }
+
+    .titulo{
+      grid-area: titulo;
+      font-size: 1.2em;
+      margin:0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .description{
+      grid-area: countdown;
+    }
+
+    .description p{
+      font-size: 0.9em;
+      text-align: center;
+
+    }
+
+  </style>
+</head>
+<body>
+    <div class="contenedor">
+      <div class="sub-contenedor">
+        <div class="imgii">
+          <img src="imgs/badge.png" alt="" class="badge-img">
+        </div>
+        <h1 class="titulo">
+        <strong>Arturo</strong>
+        </h1>
+        <div class="description">
+          <p>Carreta de lo que debe ir en esta parte de la pagina</p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,343 @@
+/*reglas
+selectores
+declaraciones
+propiedades
+valores*/
+
+body{
+
+  font-family:  'Source Sans Pro', sans-serif;
+  margin:0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family:'Fjalla One', sans-serif;
+   font-weight: 400;
+}
+
+h1
+{
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -.2px
+  text-transform: uppercase;
+  color: white;
+  margin: 100px 520px 70px 30px;
+
+}
+
+h1 strong {
+
+  color: #026fff
+}
+
+h2
+ {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+header{
+  background-color: #1d2127;
+  color: white;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+
+
+
+}
+header a  {
+  color: white;
+  text-decoration: none;
+}
+
+
+ol,
+ul
+{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+figure
+{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 24px;
+}
+
+menu
+{
+  height:70px;
+}
+
+header ol
+{
+  display: flex;
+  height: 70px;
+}
+
+header ol li{
+height: 70px;
+}
+
+header a
+{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+
+
+
+.hero
+{
+
+  height:300px;
+  background-image: url('../imagenes/hero.png');
+  background-size: 500px 300px;
+  background-color: #202020;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  display: flex;
+  margin:0;
+  align-items: center;
+}
+
+.portfolio
+{
+  background-color: #fafafa;
+  padding: 20px;
+  /* display: flex; */
+  /* flex-wrap: wrap;
+  justify-content: space-evenly; */
+
+
+}
+
+.project
+ {
+   /* border-top: 10px solid red;
+   border-right:  10px solid green;
+   border-left: 10px solid pink;
+  border-bottom:  10px solid blue; */
+  /* border-width: 15px;
+  border-color: blue;
+  border-style: groove; */
+  border: 1px solid grey;
+  border-radius: 10px;
+  /* border-top-left-radius:50px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px; */
+  /* margin: 10px; */
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: white;
+  /* weight: 500px;
+  height: 500px;
+  box-sizing: border-box;
+  flex-shrink: 0; */
+  display: flex;
+  justify-content: space-between;
+
+
+ }
+
+
+.portfolio strong{
+  font-family:   font-family:'Fjalla One', sans-serif;
+}
+
+.proyectOfcourse,
+.proyectdate,
+.url,
+ {
+  margin: 10px,0px;
+}
+
+.description{
+  width: 20px;
+
+}
+.proyecto-muestra{
+  font-size: 30px;
+  margin: 10px 0px;
+
+}
+
+
+.project-details{
+  width: 500px;
+
+
+}
+
+.footer
+{
+  color: white;
+  background-color:#1d2127;
+  display:flex;
+  /* align-items:center; */
+  justify-content: space-between;
+}
+
+.footer img{
+  vertical-align: middle;
+}
+
+.footer a{
+  color: white;
+
+}
+
+.eventor{
+  margin-left: 20px;
+}
+
+.eventaticle{
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  /* border: 1px red solid; */
+  overflow:hidden;
+  background: #f4fbff;
+
+}
+
+.eventaticle img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+
+
+}
+.eventImagenContainer{
+  padding: 0px;
+}
+
+.event{
+  display: flex;
+}
+
+.event-detail{
+  margin:20px;
+  background: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.event-description{
+  text-align: left;
+}
+
+.event-url{
+  color: #056fff;
+  border: 1px solid ;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.contact{
+  background-color:#056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: space-between;
+
+
+
+}
+
+.social{
+  border: 1px, solid, color red;
+
+}
+
+.social-link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  border: 1px solid white;
+  background-size: 50px 50px;
+
+
+}
+
+.social-link.twitter{
+  background-image: url('../imagenes/descarga.png');
+  background-size: 50px 50px;
+}
+
+.social-link.facebook{
+  background-image: url('../imagenes/descarga (1)ong.png');
+  background-size: 50px 50px;
+}
+
+.social-link.git-hub{
+  background-image: url('../imagenes/descarga.jpg');
+  background-size: 50px 50px;
+}
+
+.social-link.instagram{
+  background-image: url('../imagenes/descarga (1).jpg');
+  background-size: 50px 50px;
+}
+
+.contacto-email{
+  border-color: grey;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 20px 10px 25px;
+  background-size: 15px 15px;
+  background-position-x: 5px;
+  background-position-y: center;
+
+}
+
+.contacto-boton{
+  display: block;
+  margin-top: 10px;
+  background: transparent;
+  color: white;
+  padding: 5px 0px;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 10px;
+}
+.contact-form h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wrapperC{
+  border: 1px solid red;
+  width: 1000px;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+
+}
+/* body heder div ol li a */
+/* .portafolio */
+/* .link */
